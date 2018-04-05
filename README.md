@@ -13,5 +13,5 @@ Sends a payload via HTTP(s) to arbitrary endpoint
 
 Using npm:
 ```
-npm install ProminentEdge/se-integration
+npm install @statengine/se-integration
 ```
