@@ -1,14 +1,13 @@
 {
-  "name": "@statengine/se-integration",
+  "name": "@statengine/se-integration-base",
   "version": "0.0.1",
   "description": "Integration interface",
   "main": "lib",
   "author": "Prominent Edge",
   "license": "GPL-3.0",
-  "private": true,
   "scripts": {
     "lint": "node_modules/eslint/bin/eslint.js src/** test/**",
-    "test": "mocha --compilers js:babel-register ./test/*.js",
+    "test": "mocha --require babel-core/register ./test/*.js",
     "compile": "babel -d lib/ src/ --copy-files",
     "prepare": "npm run compile"
   },
