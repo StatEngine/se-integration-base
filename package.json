@@ -1,6 +1,6 @@
 {
   "name": "@statengine/se-integration-base",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Integration interface",
   "main": "lib",
   "author": "Prominent Edge",
@@ -12,8 +12,8 @@
     "prepare": "npm run compile"
   },
   "dependencies": {
-    "lodash": "^4.17.4",
-    "request": "^2.83.0",
+    "lodash": "^4.17.10",
+    "request": "^2.85.0",
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
@@ -23,12 +23,12 @@
     "babel-register": "^6.24.1",
     "babel-tap": "^5.0.0",
     "chai": "^4.1.0",
-    "eslint": "^4.6.1",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-config-airbnb-base": "^12.0.0",
-    "eslint-plugin-chai-friendly": "^0.4.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.3.0"
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
   }
 }
